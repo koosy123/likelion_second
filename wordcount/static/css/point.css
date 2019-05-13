@@ -1,0 +1,13 @@
+*{text-align:center;}
+h1{background-color:greenyellow; 
+color:white;
+display:inline;}
+a:visited {color:aquamarine;}
+.button {
+    border:1x solid #ff0080;    
+    background-Color:#ffe6f2;   
+    font:12px 굴림;      
+    font-weight:bold;  
+    color:#ff0080;  
+    width:130; height:30; 
+    }

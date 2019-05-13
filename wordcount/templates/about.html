@@ -1,5 +1,14 @@
-<h1>About</h1>
+{% load staticfiles %}
+<!DOCTYPE html>
+<head><title>글자 세기 사이트</title>
+<link type="text/css" rel="stylesheet" href="{% static 'css/point_about.css' %}" />
+</head>
+<body>
+<h1><img src="{% static 'img/rainbow.png' %}" width="50px" height="50px" />About<img src="{% static 'img/rainbow.png' %}" width="50px" height="50px" /></h1>
 
-<p>안녕하세요. 이곳은 글자를 세 주는 멋쟁이 사자처럼의 워드카운트 홈페이지입니다.여기서 글자를 세세요.</p>
+<h3>안녕하세요. 이곳은 글자를 세 주는 멋쟁이 사자처럼의 워드카운트 홈페이지입니다.여기서 글자를 세세요.</h3>
 
 <a href="{%url 'home' %}">HOME으로 돌아가기</a>
+
+</body>
+</html>
